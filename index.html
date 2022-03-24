@@ -1,0 +1,93 @@
+<!-- 
+    Day 7 Assignment :
+        Basic skeleton with Heading, image, paragraph, tables,
+        ordered lists, unordered lists and a survey form.
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Assignment - Day 7</title>
+ </head>
+ <body>
+    <h1>Life Quotes</h1>
+    <br>
+    <img src="https://static.parade.com/wp-content/uploads/2019/10/Life-Quotes-Happy.jpg" 
+    alt="Life-Quotes-Happy">
+    <br>
+    <p>
+        Life is a beautiful journey that is meant to be embraced to the fullest every day. However, that doesn’t mean you always wake up ready to seize the day, and sometimes need a reminder that life is a great gift. 
+        <br>
+        Some of the famous Indian poets are as below:
+    </p>
+    <table border="1" colSpace="2">
+        <thead>
+            <th>Name</th>
+            <th>Lifespan</th>
+            <th>Famous Poems</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rahim</td>
+                <td>December 17, 1556 – 1627</td>
+                <td>Rahiman Dhaga Prem Ka</td>
+            </tr>
+            <tr>
+                <td>Kamala Das</td>
+                <td>March 31, 1934 – May 31, 2009</td>
+                <td>An Introduction</td>
+            </tr>
+            <tr>
+                <td>RABINDRANATH TAGORE</td>
+                <td>May 7, 1861 – August 7, 1941</td>
+                <td>Bharoto Bhagyo Bidhata</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Names of few more poets: </p>
+    <ol>
+        <li>Kalidasa</li>
+        <li>Mirza Ghalib</li>
+        <li>Tulsidas</li>
+        <li>Gulzar</li>
+    </ol>
+    <p>Names of few famous poems: </p>
+    <ul>
+        <li>Dono Rahiman Ek Se</li>
+        <li>My Grandmother’s House</li>
+        <li>Murjhaya Phool</li>
+        <li>Guru Govind Dou Khade</li>
+        <li>Bura Jo Dekhan Main Chala</li>
+        <li>Palanquin Bearers</li>
+        <li>Ramcharitmanas</li>
+        <li>Birpurush</li>
+    </ul>
+    <br>
+    <form novalidate, autocomplete="off">
+        <div>
+            <label for="fullname">Fullname:</label>
+            <input type="text" name="fullname" id="fullname">
+        </div>
+        <div>
+            Gender: 
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" value="male">
+        <!-- </div>
+        <div> -->
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" value="female">
+        </div>
+        <div>
+            Email: <input type="email" placeholder="enter you email id">
+        </div>
+        <div>
+            Date of birth: <input type="date">
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+ </body>
+ </html>
